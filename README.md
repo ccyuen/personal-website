@@ -1,2 +1,4 @@
-# ccyuen.github.io
-Personal website using GitHub pages to learn HTML, CSS and JS/Perl/PHP
+# Clement Yuen's Website
+This is a small project to help me learn basic web development using HTMl, CSS, JS/Perl/PHP
+
+[clementcyuen.com](cyuen.github.io)
