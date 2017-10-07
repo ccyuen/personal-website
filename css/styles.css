@@ -1,3 +1,5 @@
+html, body { margin: 0; padding: 0; }
+
 #navBar {
   width: 100;
   text-align: center;
@@ -9,6 +11,8 @@
   margin: 0;
   width: 100;
 }
+
+
 
 ul {
   list-style-type: none;
@@ -24,8 +28,9 @@ li {
 }
 
 li a {
+    align-items: center;
     display: block;
-    color: #ffbf00;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
