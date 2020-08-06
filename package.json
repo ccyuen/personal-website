@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
@@ -30,8 +34,8 @@
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint": "stylelint --quiet src/**/*.scss & eslint --quiet --ext .ts,.tsx ./src",
-    "lint:fix": "eslint -quiet --ext .ts,.tsx ./src --fix"
+    "lint": "eslint --quiet --ext .ts,.tsx ./src & stylelint --quiet src/**/*.scss",
+    "lint:fix": "eslint --quiet --ext --fix .ts,.tsx ./src & stylelint --quiet --fix src/**/*.scss "
   },
   "eslintConfig": {
     "extends": "react-app"
