@@ -1,0 +1,28 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        },
+        "project": ["tsconfig.json"]
+    },
+    "extends": [
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended"
+    ],
+    "plugins":[
+        "@typescript-eslint",
+        "import",
+        "jsx-a11y",
+        "react"
+    ],
+    "rules": {
+        "import/extensions": [
+            "error",
+            "never"
+         ]
+    }
+}
