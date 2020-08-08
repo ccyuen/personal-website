@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.scss';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 export default function App(): JSX.Element {
   return (
     <div className="App">
-      <header className="App-header">
-        <div>
-          <p>
-            Nothing here yet :)
-          </p>
-        </div>
-      </header>
+      <Header/>
+      <div className="Body"/>
+      <Footer/>
     </div>
   );
 }
