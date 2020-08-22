@@ -23,7 +23,9 @@
         "import/extensions": [
             "error",
             "never"
-         ]
+         ],
+         "class-methods-use-this": "off",
+         "comma-dangle": ["warn", "never"],
     },
     "settings": {
         "react": {
